@@ -1,5 +1,5 @@
 # AWPIS Development Rules
-# (System guardrails for vibe coding / AI-assisted development)
+# (System guardrails for development)
 
 ## The Prime Directives
 1. **NEVER commit `.env` files.** Ever. No exceptions.
