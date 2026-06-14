@@ -52,6 +52,8 @@ AWPIS uses a multi-agent orchestration pipeline powered by LangGraph. When a run
 
 ## System Architecture
 
+<img width="2186" height="1419" alt="diagram-export-14-6-2026-4_13_38-PM" src="https://github.com/user-attachments/assets/8dfc509f-a907-44c0-832f-bec664cfef94" />
+
 AWPIS is built on a 7-layer autonomous framework:
 
 ```text
