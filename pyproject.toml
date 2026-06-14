@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "awpis"
+version = "0.1.0"
+description = "Automated Website Performance Improvement System"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "AWPIS Team" },
+]
+
+dependencies = [
+    "langgraph>=0.2",
+    "langchain-google-genai",
+    "langchain-groq",
+    "langsmith",
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic-settings",
+    "motor",
+    "redis",
+    "httpx",
+    "python-dotenv",
+    "apscheduler",
+    "pygithub",
+    "loguru",
+    "sse-starlette",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "ruff",
+    "mypy",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend"]
