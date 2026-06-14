@@ -11,7 +11,7 @@ Think of it as having a dedicated performance engineer working 24/7 to keep your
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 - [Why AWPIS?](#-why-awpis)
 - [How It Works](#-how-it-works)
 - [System Architecture](#-system-architecture)
