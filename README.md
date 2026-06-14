@@ -1,4 +1,4 @@
-# 🚀 AWPIS — Autonomous Web Performance Intelligence System
+# AWPIS: Autonomous Web Performance Intelligence System
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Next.js 15](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
@@ -24,7 +24,7 @@ Think of it as having a dedicated performance engineer working 24/7 to keep your
 
 ---
 
-## 💡 Why AWPIS?
+## Why AWPIS?
 
 Enterprise web applications inevitably slow down as new features, heavy images, and tracking scripts are added. Typically, fixing these issues takes weeks of manual work: detection, ticketing, investigation, coding, and deployment.
 
@@ -36,7 +36,7 @@ AWPIS changes this paradigm:
 
 ---
 
-## ⚙️ How It Works
+## How It Works?
 
 AWPIS uses a multi-agent orchestration pipeline powered by LangGraph. When a run is triggered:
 
@@ -50,7 +50,7 @@ AWPIS uses a multi-agent orchestration pipeline powered by LangGraph. When a run
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 AWPIS is built on a 7-layer autonomous framework:
 
@@ -72,7 +72,7 @@ Layer 1: Input           [ HTTP Trigger / Scheduler ]
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Follow these steps to get AWPIS running locally.
 
@@ -126,7 +126,7 @@ Follow these steps to get AWPIS running locally.
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 To operate, AWPIS requires access to several external APIs. Configure these in your `.env` file.
 
@@ -146,22 +146,22 @@ To operate, AWPIS requires access to several external APIs. Configure these in y
 
 ---
 
-## 📚 Project Documentation
+## Project Documentation
 
 For a deep dive into how AWPIS was built and how to extend it, check out our comprehensive documentation folder:
 
-- 📄 **[Product Requirements (PRD)](./docs/1-PRD.md)** - Vision, users, and success metrics.
-- 🏗️ **[Technical Specification](./docs/2-TECH-SPEC.md)** - Deep dive into the LangGraph architecture.
-- 🔄 **[Application Flow](./docs/3-APP-FLOW.md)** - Step-by-step user journeys.
-- 🎨 **[Design System](./docs/4-DESIGN.md)** - The "Mission Control" UI aesthetic guide.
-- 🗄️ **[Data Schema](./docs/5-SCHEMA.md)** - MongoDB and PipelineState structures.
-- 📝 **[Implementation Plan](./docs/6-IMPLEMENTATION-PLAN.md)** - How the project was built phase-by-phase.
-- 🧠 **[Agent Memory & Tracker](./docs/7-TRACKER.md)** - Architecture Decisions Log (ADR).
-- 🚨 **[Development Rules](./docs/8-RULES.md)** - **MUST READ:** Guardrails and rules for extending the codebase.
+- **[Product Requirements (PRD)](./docs/1-PRD.md)** - Vision, users, and success metrics.
+- **[Technical Specification](./docs/2-TECH-SPEC.md)** - Deep dive into the LangGraph architecture.
+- **[Application Flow](./docs/3-APP-FLOW.md)** - Step-by-step user journeys.
+- **[Design System](./docs/4-DESIGN.md)** - The "Mission Control" UI aesthetic guide.
+- **[Data Schema](./docs/5-SCHEMA.md)** - MongoDB and PipelineState structures.
+- **[Implementation Plan](./docs/6-IMPLEMENTATION-PLAN.md)** - How the project was built phase-by-phase.
+- **[Agent Memory & Tracker](./docs/7-TRACKER.md)** - Architecture Decisions Log (ADR).
+- **[Development Rules](./docs/8-RULES.md)** - **MUST READ:** Guardrails and rules for extending the codebase.
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 AWPIS utilizes a modern, high-performance stack:
 
@@ -174,7 +174,7 @@ AWPIS utilizes a modern, high-performance stack:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! To ensure AWPIS remains stable and secure:
 1. Please read **[docs/8-RULES.md](./docs/8-RULES.md)** before writing any code.
@@ -184,6 +184,6 @@ We welcome contributions! To ensure AWPIS remains stable and secure:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
