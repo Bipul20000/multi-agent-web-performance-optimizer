@@ -11,13 +11,27 @@ Think of it as having a dedicated performance engineer working 24/7 to keep your
 
 ---
 
+## Project Documentation
+
+For a deep dive into how AWPIS was built and how to extend it, check out our comprehensive documentation folder:
+
+- **[Product Requirements (PRD)](./docs/1-PRD.md)** - Vision, users, and success metrics.
+- **[Technical Specification](./docs/2-TECH-SPEC.md)** - Deep dive into the LangGraph architecture.
+- **[Application Flow](./docs/3-APP-FLOW.md)** - Step-by-step user journeys.
+- **[Design System](./docs/4-DESIGN.md)** - The "Mission Control" UI aesthetic guide.
+- **[Data Schema](./docs/5-SCHEMA.md)** - MongoDB and PipelineState structures.
+- **[Implementation Plan](./docs/6-IMPLEMENTATION-PLAN.md)** - How the project was built phase-by-phase.
+- **[Agent Memory & Tracker](./docs/7-TRACKER.md)** - Architecture Decisions Log (ADR).
+- **[Development Rules](./docs/8-RULES.md)** - **MUST READ:** Guardrails and rules for extending the codebase.
+
+---
+
 ## Table of Contents
 - [Why AWPIS?](#-why-awpis)
 - [How It Works](#-how-it-works)
 - [System Architecture](#-system-architecture)
 - [Quick Start](#-quick-start)
 - [Environment Variables](#-environment-variables)
-- [Project Documentation](#-project-documentation)
 - [Tech Stack](#-tech-stack)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -148,20 +162,6 @@ To operate, AWPIS requires access to several external APIs. Configure these in y
 
 ---
 
-## Project Documentation
-
-For a deep dive into how AWPIS was built and how to extend it, check out our comprehensive documentation folder:
-
-- **[Product Requirements (PRD)](./docs/1-PRD.md)** - Vision, users, and success metrics.
-- **[Technical Specification](./docs/2-TECH-SPEC.md)** - Deep dive into the LangGraph architecture.
-- **[Application Flow](./docs/3-APP-FLOW.md)** - Step-by-step user journeys.
-- **[Design System](./docs/4-DESIGN.md)** - The "Mission Control" UI aesthetic guide.
-- **[Data Schema](./docs/5-SCHEMA.md)** - MongoDB and PipelineState structures.
-- **[Implementation Plan](./docs/6-IMPLEMENTATION-PLAN.md)** - How the project was built phase-by-phase.
-- **[Agent Memory & Tracker](./docs/7-TRACKER.md)** - Architecture Decisions Log (ADR).
-- **[Development Rules](./docs/8-RULES.md)** - **MUST READ:** Guardrails and rules for extending the codebase.
-
----
 
 ## Tech Stack
 
